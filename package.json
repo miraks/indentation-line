@@ -1,0 +1,23 @@
+{
+  "name": "indentation-line",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Adds an indentation highlighting line in the editor gutter",
+  "keywords": [
+    "indentation",
+    "highlight",
+    "gutter",
+    "guide",
+    "ruler"
+  ],
+  "repository": "https://github.com/miraks/indentation-line",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^6.0.3",
+    "eslint": "^2.8.0"
+  }
+}

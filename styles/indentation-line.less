@@ -1,0 +1,13 @@
+@import "ui-variables";
+
+@indentation-line-color: @background-color-info;
+
+atom-text-editor, atom-text-editor::shadow {
+  .indentation-lines {
+    min-width: 6px;
+  }
+
+  .indentation-line {
+    border-left: 2px solid @indentation-line-color;
+  }
+}
